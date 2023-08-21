@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background-color: ;
+    color: #0D0D0D;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #180E59;
+    font-family: 'DM Serif Display', serif;
+}
+
+table, th, tr, td {
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table {
+    background-color: #180E59;
+    color: #EDF24B;
+    font-family: 'DM Sans', sans-serif;
+}
+
+th {
+    text-align: center;
+}
